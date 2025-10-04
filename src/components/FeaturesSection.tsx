@@ -1,12 +1,12 @@
 import { FeatureCard } from "./FeatureCard";
-import { Shield, Bug, MessageSquare, FileText, Users } from "lucide-react";
+import { Shield, Bug, MessageSquare, Users } from "lucide-react";
 
 const features = [
   {
     icon: Shield,
     title: "Secure Login",
     description: "Multi-factor biometric authentication ensuring your account stays protected with enterprise-grade security protocols.",
-    link: "#"
+    link: "/secure-login"
   },
   {
     icon: Bug,
@@ -16,15 +16,9 @@ const features = [
   },
   {
     icon: MessageSquare,
-    title: "Tone Analysis",
-    description: "AI-powered sentiment detection to identify aggressive or abusive content across digital platforms in real-time.",
+    title: "Tone Analysis and AI Report Generator",
+    description: "AI-powered sentiment detection and report generation.",
     link: "/tone-analysis"
-  },
-  {
-    icon: FileText,
-    title: "AI Report Generator",
-    description: "Automatically generates comprehensive cyber harassment reports with actionable next steps and legal guidance.",
-    link: "#"
   },
   {
     icon: Users,

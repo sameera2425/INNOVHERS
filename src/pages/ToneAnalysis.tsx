@@ -25,12 +25,15 @@ export default function ToneAnalysis() {
 
           {/* Video demo - centered */}
           <div className="p-8 rounded-2xl bg-card/30 backdrop-blur-lg border border-border shadow-lg mb-16">
-            <div className="aspect-video bg-muted/20 rounded-xl flex items-center justify-center border border-border/50">
-              <div className="text-center">
-                <MessageSquare className="w-16 h-16 text-primary mx-auto mb-4 opacity-50" />
-                <p className="text-muted-foreground">Watch how this feature works</p>
-                <p className="text-sm text-muted-foreground/60 mt-2">(Demo video coming soon)</p>
-              </div>
+            <div className="aspect-video bg-muted/20 rounded-xl overflow-hidden border border-border/50">
+              <video 
+                className="w-full h-full object-cover"
+                controls
+                preload="metadata"
+              >
+                <source src="/ai armkr.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
             </div>
           </div>
 
