@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import ToneAnalysis from "./pages/ToneAnalysis";
 import SecureLogin from "./pages/SecureLogin";
+import RATDetection from "./pages/RATDetection";
 import EmpowerCitizens from "./pages/EmpowerCitizens";
 import NotFound from "./pages/NotFound";
 
@@ -21,6 +22,7 @@ const App = () => (
           <Route path="/" element={<Index />} />
           <Route path="/tone-analysis" element={<ToneAnalysis />} />
           <Route path="/secure-login" element={<SecureLogin />} />
+          <Route path="/rat-detection" element={<RATDetection />} />
           <Route path="/empower-citizens" element={<EmpowerCitizens />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />

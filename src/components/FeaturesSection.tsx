@@ -12,7 +12,7 @@ const features = [
     icon: Bug,
     title: "RAT Detection",
     description: "Advanced protection from Remote Access Trojans with real-time monitoring and intelligent threat identification.",
-    link: "#"
+    link: "/rat-detection"
   },
   {
     icon: MessageSquare,

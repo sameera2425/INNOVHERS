@@ -11,7 +11,7 @@ export default function ToneAnalysis() {
       <section className="pt-32 pb-16 px-4">
         <div className="container mx-auto text-center">
           <h1 className="text-5xl lg:text-6xl font-bold mb-6">
-            Tone Analysis
+            Tone Analysis <br>and</br>AI Report Generator
           </h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
             AI-powered sentiment detection to keep your digital interactions safe and respectful
