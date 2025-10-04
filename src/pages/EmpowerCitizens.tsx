@@ -45,7 +45,7 @@ export default function EmpowerCitizens() {
                 controls
                 preload="metadata"
               >
-                <source src="/demovideo.mp4" type="video/mp4" />
+                <source src="/Recording 2025-10-04 142720.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
             </div>
