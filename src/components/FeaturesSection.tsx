@@ -24,7 +24,7 @@ const features = [
     icon: Users,
     title: "Empower Citizens",
     description: "Educational tools and resources providing guidance to help everyone stay safe in the digital landscape.",
-    link: "#"
+    link: "/empower-citizens"
   }
 ];
 
